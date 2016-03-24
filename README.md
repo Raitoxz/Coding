@@ -1,2 +1,2 @@
 
-记录一些在LeetCode上面做过的有意思的题吧
+记录一些在LeetCode上面做过的水题吧orz
