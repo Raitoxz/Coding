@@ -1,4 +1,8 @@
 //别人的解法，不使用其他的函数，从字符串的开头开始迭代
+//I've noticed that a lot of solutions use available library functions that return directly the positions of certain characters or do other operations like "split". 
+//I personally don't think that's a good idea. Firstly, these functions take some time and usually involve with iteration through the whole string. 
+//Secondly, questions like this one is intended to be a practice of detail implementation, not calling other functions. 
+//My solution like below uses only the most basic string operations and probably beats many other solutions which call other existing functions.
 class Solution {
 public:
     int lengthOfLastWord(string s) {
